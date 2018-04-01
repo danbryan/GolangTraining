@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello world!")
-}
+	for i := 0; i < 10; i++ {
+		fmt.Println(i)
+	}
 
-// main is the entry point to your program
+}
